@@ -104,7 +104,7 @@ In Python, generator functions yield values one at a time, allowing you to handl
 - **Space Complexity:** \(O(n)\)
 - Memoization stores the results of expensive function calls and reuses them when the same inputs occur again. This typically involves using a data structure (like a dictionary or array) to store the computed results for each state. Thus, if you are storing results for \(n\) different states, the space complexity is \(O(n)\).
 
-## Generator Functions
+### 4. Generator Functions
 - **Space Complexity:** \(O(1)\)
  
 - Generator functions use the `yield` keyword to return values one at a time and maintain their state between calls. This means that instead of storing all values in memory at once (as you would with a list), a generator computes each value on-the-fly.
